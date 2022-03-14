@@ -6,28 +6,6 @@ import "./Banner.scss";
 
 const Banner = () => {
   return (
-    // <header id="home" className="banner">
-    //   <div className="banner-ctn">
-    //     <div className="banner-info">
-    //       <img className="banner-pin-icon" src={Pin} alt="Location Pin" />
-    //       <h1 className="banner-title">America del Sur</h1>
-    //     </div>
-    //     <hr className="banner-line" />
-    //     <div className="banner-desc">
-    //       <h4>
-    //         Lugares maravillosos por
-    //         <br />
-    //         America del sur
-    //       </h4>
-    //       <p className="banner-paragraph">
-    //         Estos son algunos de los lugares que eligen la mayoria de los
-    //         turistas que visitan America del sur
-    //       </p>
-    //     </div>
-    //   </div>
-    //   <img className="banner-img" src={Slider} alt="1" />
-    //   <img className="banner-img-desktop" src={SliderDesktop} alt="1" />
-    // </header>
     <header id="home" className="banner">
       <div className="banner-ctn">
         <div className="banner-info">
