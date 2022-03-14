@@ -29,11 +29,6 @@ const Banner = () => {
       </div>
       <img className="banner-img" src={Slider} alt="1" />
       <img className="banner-img-desktop" src={SliderDesktop} alt="1" />
-      {/* <div className="banner-box">
-        <h4>Próxima Aventura</h4>
-        <p>Europa Meridional</p>
-        <p>Forman parte veinte países, ej. España, Francia, etc.</p>
-      </div> */}
     </header>
   );
 };
