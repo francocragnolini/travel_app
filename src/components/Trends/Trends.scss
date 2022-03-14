@@ -1,0 +1,46 @@
+.trend-section {
+  width: 100%;
+  height: 61rem;
+  background-color: #ebebeb;
+  display: flex;
+  justify-content: center;
+  .trend-ctn {
+    padding-top: 7rem;
+  }
+}
+
+.trend-ctn {
+  .trend-title {
+    margin-bottom: 2.8rem;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    font-weight: bold;
+  }
+}
+
+.trend-list {
+  .trend-item:nth-child(1) {
+    display: initial;
+  }
+  .trend-item {
+    display: none;
+  }
+}
+
+@media screen and(min-width:1024px) {
+  .trend-section {
+    height: 73.6rem;
+  }
+  .trend-ctn {
+    .trend-title {
+      margin-bottom: 2.8rem;
+    }
+  }
+  .trend-list {
+    display: flex;
+    gap: 1.6rem;
+    .trend-item {
+      display: initial;
+    }
+  }
+}

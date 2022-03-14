@@ -1,0 +1,24 @@
+/* resetting css default styling */
+*,
+*:before,
+*:after {
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem; /* hack 1 rem = 10px*/
+  font-family: "Montserrat", sans-serif;
+  &.body-overlay {
+    overflow: hidden;
+  }
+}
